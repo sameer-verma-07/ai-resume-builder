@@ -1,0 +1,6 @@
+{
+  "name": "Professional Resume and CV Architect",
+  "description": "Create, design, and print visually stunning, ATS-friendly professional resumes. Features real-time spacing metrics, custom layouts, and an integrated Gemini AI bullet-point polisher.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
