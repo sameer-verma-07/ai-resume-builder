@@ -1,6 +1,69 @@
-# 🚀 AI Career Assistant – Resume Builder
+# 🚀 AI Career Assistant – Multi-Agent Resume & Job Optimization System
 
-An AI-powered web application that generates and improves resumes using a **spec-driven approach**, human-in-the-loop validation, and intelligent AI processing.
+## 🎯 Problem Statement
+
+Many students and job seekers struggle to create resumes that pass Applicant Tracking Systems (ATS) and align with job descriptions. As a result, qualified candidates often miss opportunities due to poor resume structure, missing keywords, and lack of optimization.
+
+---
+
+## 💡 Solution
+
+AI Career Assistant is a multi-agent AI system designed to help users:
+
+* Analyze resumes using ATS scoring
+* Match resumes with job descriptions
+* Identify skill gaps
+* Improve resume quality using AI
+
+The system provides actionable insights to improve career readiness and increase job success rates.
+
+---
+
+## 🤖 Multi-Agent Architecture
+
+This project uses a multi-agent system where each agent performs a specialized task:
+
+* **Resume Analyzer Agent**
+  Evaluates resumes and generates ATS scores with structured feedback
+
+* **Job Matcher Agent**
+  Compares resumes with job descriptions and identifies missing skills
+
+* **Resume Improver Agent**
+  Enhances resumes using spec-driven AI output
+
+* **Human-in-the-Loop**
+  Allows users to review and approve generated outputs
+
+---
+
+## ⚙️ How It Works
+
+1. User uploads or pastes a resume
+2. Resume Analyzer Agent evaluates ATS compatibility
+3. Job Matcher Agent compares resume with job description
+4. Resume Improver Agent enhances content
+5. User reviews and approves results
+
+---
+
+## 🚀 Key Features
+
+* ATS Score Analysis with actionable suggestions
+* Job Matching with skill gap identification
+* AI-powered Resume Improvement
+* Multi-agent architecture
+* Human-in-the-loop validation
+* Clean and user-friendly interface
+
+---
+
+## 🛠️ Tech Stack
+
+* Google AI Studio
+* Antigravity IDE
+* AI Agents (Multi-agent system design)
+* JavaScript / Python (depending on your implementation)
 
 ---
 
@@ -16,61 +79,69 @@ An AI-powered web application that generates and improves resumes using a **spec
 
 ---
 
-## ✨ Features
+## 🎥 Demo Video
 
-* 🧠 **AI Resume Generation** – Create professional resumes instantly
-* ✍️ **Resume Improvement** – Upgrade existing resumes with better wording
-* 👤 **Human-in-the-loop** – Review and approve AI suggestions before finalizing
-* 📊 **Spec-driven Output** – Ensures structured, ATS-friendly resumes
-* ⚠️ **Validation & Error Handling** – Prevents incomplete or invalid inputs
-* 🔄 **Auto-regeneration** – Ensures output is always generated
-* 🎯 **Clean UI** – Easy comparison between original and improved resumes
+(Add your YouTube link here)
 
 ---
 
-## 🧠 Tech Stack
+## 📦 Setup Instructions
 
-* Google AI Studio
-* Antigravity
-* AI Agents & Prompt Engineering
-* Cloud Run (Deployment)
+1. Clone the repository:
+
+   ```
+   git clone https://github.com/sameer-verma-07/ai-resume-builder.git
+   ```
+
+2. Navigate to the project folder:
+
+   ```
+   cd ai-resume-builder
+   ```
+
+3. Install dependencies:
+
+   ```
+   npm install
+   ```
+
+4. Run the application:
+
+   ```
+   npm start
+   ```
 
 ---
 
-## 🛠️ How It Works
+## 🔐 Security Note
 
-1. User uploads or pastes resume
-2. AI processes and improves content
-3. System validates output based on defined rules
-4. User reviews suggestions (Human-in-the-loop)
-5. Final resume is generated
+* No API keys or sensitive data are included in the repository
+* All inputs are processed securely
 
 ---
 
-## 🎯 Key Concepts Applied
+## 🏆 Key Learnings
 
-* Spec-Driven Development
-* Human-in-the-loop AI
-* Validation & Evaluation Pipelines
-* AI Safety & Reliability
-
----
-
-## 🚀 Future Improvements
-
-* ATS Score Analyzer
-* Job Description Matcher
-* Resume Download (PDF/DOCX)
-* Multi-language support
+* Building multi-agent AI systems
+* Implementing spec-driven development
+* Designing real-world AI applications
+* Integrating evaluation and human-in-the-loop workflows
 
 ---
 
 ## 🙌 Acknowledgment
 
-Built as part of Kaggle + Google AI Agents & Vibe Coding program.
+This project was developed as part of the **5-Day AI Agents: Intensive Vibe Coding Course with Google (Kaggle)**.
 
 ---
 
-## 📌 Author
+## 📌 Future Improvements
 
-**Sameer Verma**
+* Add interview question generator
+* Improve UI/UX
+* Add real-time job recommendations
+* Enhance scoring accuracy
+
+---
+
+⭐ If you found this project interesting, feel free to star the repository!
